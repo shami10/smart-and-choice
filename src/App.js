@@ -6,6 +6,7 @@ import Contact from './Pages/Contact'
 import Home from './Pages/Home'
 import Faqs from './Pages/Faqs'
 import Policy from './Pages/Policy'
+import Pricing from './Pages/Pricing'
 import Telecom from './Pages/Services/Telecom'
 import RealEstate from './Pages/Services/RealEstate'
 import Residential from './Pages/Services/Residential'
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about-us" exact element={<About />} />
+          <Route path="/pricing" exact element={<Pricing />} />
           <Route path="/services/telecom" exact element={<Telecom />} />
           <Route path="/services/real-estate" exact element={<RealEstate />} />
           <Route path="/services/residential-energy" exact element={<Residential />} />

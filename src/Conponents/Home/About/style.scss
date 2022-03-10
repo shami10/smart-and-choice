@@ -1,0 +1,108 @@
+.section-design {
+  padding: 90px 0;
+  .m {
+    margin-bottom: 70px;
+  }
+  .info-section {
+    .lable {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: #ffffff;
+      display: flex;
+      margin-bottom: 10px;
+      .line {
+        position: relative;
+        width: 100px;
+        height: 3px;
+        background: #fff;
+        margin-top: 10px;
+        margin-left: 15px;
+      }
+    }
+    .title {
+      font-weight: bold;
+      font-size: 35px;
+      line-height: 1.5;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+      strong {
+        font-size: 55px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: rgba(255, 255, 255, 0.6);
+      }
+    }
+    .sm-text {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 1.5;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+    }
+    .des {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 34px;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+      padding-right: 36px;
+      margin-bottom: 30px;
+    }
+    .read-more-btn {
+      a {
+        background: #ff5722;
+        border-radius: 8px;
+        border: 1px solid #ff5722;
+        padding: 10px 30px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .image-view {
+    .first-img {
+      img {
+        border-radius: 15px;
+        width: 100%;
+      }
+    }
+    .second-img {
+      display: flex;
+      margin-top: -70px;
+      margin-left: -70px;
+      .img {
+        img {
+          width: 150px;
+          height: 150px;
+          border-radius: 15px;
+        }
+      }
+      .ceo {
+        align-self: end;
+        display: flex;
+        position: relative;
+        top: 27px;
+        .ceo-name {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 20px;
+          color: #ffffff;
+          align-self: center;
+          .role {
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}
+.bg-light-theme {
+  background: #183e5c;
+}
