@@ -60,9 +60,9 @@ const Header = () => {
                       </Link>
                       <Link
                         className="dropdown-item"
-                        to="/services/real-estate"
+                        to="/services/customer-support"
                       >
-                        Real Estate
+                        Customer Support
                       </Link>
                       <Link
                         className="dropdown-item"
@@ -72,14 +72,19 @@ const Header = () => {
                       </Link>
                     </div>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <NavLink className="nav-link" to="/pricing">
                       Pricing
                     </NavLink>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/about-us">
                       About Us
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link" to="/faqs">
+                      Faqs
                     </NavLink>
                   </li>
                   <li className="nav-item">

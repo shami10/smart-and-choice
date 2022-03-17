@@ -15,8 +15,9 @@ const Footer = () => {
                 <img src={Logo} alt="logo" />
               </div>
               <div className="info">
-                Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                Krologi. Jån krolahurat.Dyng koldioxidbanta. Teragram planen.
+                Our plans is secure your transaction against unexpected services
+                our home appliances save your amount on energy cost & give you
+                unlimited downloading uploading high speed internet services.
               </div>
               <div className="social-account">
                 <a href="facebook">
@@ -38,7 +39,7 @@ const Footer = () => {
                     <Link to="/services/telecom">Telecom</Link>
                   </li>
                   <li>
-                    <Link to="/services/real-estate">Real Estate</Link>
+                    <Link to="/services/customer-support">Customer Support</Link>
                   </li>
                   <li>
                     <Link to="/services/residential-energy">
@@ -48,9 +49,9 @@ const Footer = () => {
                   <li>
                     <Link to="/about-us">About Us</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/pricing">Pricing</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

@@ -1,6 +1,9 @@
 import React from 'react'
 import bg from '../../Assets/images/page-header-bg.png'
 const Pricing = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <div className="inner-page-bg">

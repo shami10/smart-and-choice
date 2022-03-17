@@ -22,15 +22,12 @@ const HomeAbout = () => {
                 <div className="title">About Us</div>
                 <div className="des">
                   <p>
-                    Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                    Krologi. Jån krolahurat. Suprasa antisiv. Pomining
-                    prodiviligt. Midade nektigt. Vinterkräksjuka. Tribefängen
-                    probev. Afyr usa. Nypont bement. Prelig telengen. Pres
-                    avvisningsfre kvens. Traling ojusade.
-                  </p>
-                  <p>
-                    Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                    Krologi. Jån krolahurat.
+                    Providing top-quality services in various fields. We intend
+                    to build a brand which is trustworthy and recognizable. Our
+                    team consists of the most excellent specialists in the
+                    market, provided with opportunities of continuing
+                    professional development and taking part in numerous
+                    trainings.
                   </p>
                 </div>
                 <div className="read-more-btn">

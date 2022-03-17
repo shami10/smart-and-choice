@@ -1,19 +1,32 @@
 import React from 'react'
 import bg from '../../../Assets/images/page-header-bg.png'
-import AboutImg1 from '../../../Assets/images/about-us-1.jpg'
+import InternetDeal from '../../../Assets/images/internet-deal.jpg'
+import CableTv from '../../../Assets/images/cable-tv.jpg'
+import HomePhone from '../../../Assets/images/home-phone.jpg'
 const Telecom = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <div className="inner-page-bg">
         <div className="title">
           <div className="container">
             <div className="row">
-              <div className="col-7">
+              <div className="col-10">
                 <h1>Telecom</h1>
                 <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
+                  We are committed to making the world a better place. We
+                  deliver the promise of the digital world by enhancing the
+                  ability of humans, businesses, and society to do more new and
+                  better. We provide the finest ultra-fast internet deals, Cable
+                  Tv, and Home phone services that are sustainable, efficient,
+                  integrated, and streamlined services worldwide. We provide a
+                  full solution for managing the lifecycle of network and data
+                  equipment. Traditional technologies such as wireline
+                  telephone, radio, and television once dominated the
+                  telecommunications universe, but wireless mobile and internet
+                  technology are quickly becoming the new norm.
                 </p>
               </div>
             </div>
@@ -27,9 +40,11 @@ const Telecom = () => {
             <div className="title">What We Are Offering</div>
             <div className="des p-0">
               <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+                We are offering high-speed internet, fixed-line unlimited
+                telephone calls, and wireless services. We transform how people,
+                businesses and things connect through innovative communication
+                and technology solutions. Experience Pakistan’s finest reliable
+                internet, TV, and phone services and save your finances.
               </p>
             </div>
           </div>
@@ -41,20 +56,18 @@ const Telecom = () => {
                   <div className="line"></div>
                 </div>
                 <div className="title sm-text">
-                  Get Cost Effective & High-Speed Internet unlimited TV
-                  Channels, National & International phone calls.
+                  Get economical & ultra-fast reliable internet
                 </div>
                 <div className="des p-0">
                   <p>
-                    Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                    Krologi. Jån krolahurat. Suprasa antisiv. Pomining
-                    prodiviligt. Midade nektigt. Vinterkräksjuka. Tribefängen
-                    probev. Afyr usa. Nypont bement. Prelig telengen. Pres
-                    avvisningsfre kvens. Traling ojusade.
-                  </p>
-                  <p>
-                    Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                    Krologi. Jån krolahurat.
+                    Are you still struggling to get high-speed internet
+                    services? Then your struggle is real because it is
+                    overwhelming to find reliable internet services. Say goodbye
+                    to average internet speed and Switch today, get faster speed
+                    at cheap rates. As we promise to provide high-speed
+                    telecommunication services in reliable packages. Improve
+                    your work-from-home connectivity with us by availing
+                    yourself of our super-fast internet offers.
                   </p>
                 </div>
                 <div className="read-more-btn"></div>
@@ -63,7 +76,7 @@ const Telecom = () => {
             <div className="col-lg-5">
               <div className="image-view">
                 <div className="first-img">
-                  <img src={AboutImg1} alt="About Us" />
+                  <img src={InternetDeal} alt="About Us" />
                 </div>
               </div>
             </div>
@@ -76,7 +89,7 @@ const Telecom = () => {
             <div className="col-lg-5">
               <div className="image-view">
                 <div className="first-img">
-                  <img src={AboutImg1} alt="About Us" />
+                  <img src={CableTv} alt="About Us" />
                 </div>
               </div>
             </div>
@@ -87,19 +100,17 @@ const Telecom = () => {
                   <div className="line"></div>
                 </div>
                 <div className="title sm-text">
-                  Let’s tie up with our exclusive cable tv cost effective offers
+                  Enjoy hassle-free entertainment with our great offers
                 </div>
                 <div className="des">
                   <p>
-                    Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                    Krologi. Jån krolahurat. Suprasa antisiv. Pomining
-                    prodiviligt. Midade nektigt. Vinterkräksjuka. Tribefängen
-                    probev. Afyr usa. Nypont bement. Prelig telengen. Pres
-                    avvisningsfre kvens. Traling ojusade.
-                  </p>
-                  <p>
-                    Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                    Krologi. Jån krolahurat.
+                    Want to enjoy broadcast tv at home that is just right for
+                    you, on the device of your choice? Look no further! Get the
+                    best cable Tv plan for you. We are providing a new way of
+                    exploring the broadband speed, deals, packages, and bundles
+                    with exciting additional features. These cable deals have so
+                    much to offer it may be hard to choose just one. Also at
+                    economical rates to watch your favorite shows.
                   </p>
                 </div>
                 <div className="read-more-btn"></div>
@@ -118,20 +129,25 @@ const Telecom = () => {
                   <div className="line"></div>
                 </div>
                 <div className="title sm-text">
-                  Connect with your friends’ families & Many more by using our
-                  fast home phone offer
+                  Stay in touch with your peers, families through our cheapest
+                  home phone call packages
                 </div>
                 <div className="des p-0">
                   <p>
-                    Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                    Krologi. Jån krolahurat. Suprasa antisiv. Pomining
-                    prodiviligt. Midade nektigt. Vinterkräksjuka. Tribefängen
-                    probev. Afyr usa. Nypont bement. Prelig telengen. Pres
-                    avvisningsfre kvens. Traling ojusade.
-                  </p>
-                  <p>
-                    Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                    Krologi. Jån krolahurat.
+                    We are assisting you to keep in touch with your loved ones,
+                    peer, family, or business partner with our unlimited
+                    reasonable first-class quality call offers, with no
+                    interruption and without having to worry about running out
+                    of minutes. These offers are right at your fingertips. This
+                    is why we offer unlimited calling offers at the cheapest
+                    rates So don’t limit yourself to peak or off-peak rates. Now
+                    you can talk for however long whenever you want to or never
+                    miss out on the things that matter the most for you, your
+                    monthly bill will always be the same. Switching your home
+                    phone to Pure Telecom means unrivaled INTERNATIONAL rates
+                    for both landline and mobile calls. In case of far from
+                    home, our phone call offers will bring your loved ones
+                    closer and will not make you feel homesick anymore.
                   </p>
                 </div>
                 <div className="read-more-btn"></div>
@@ -140,7 +156,7 @@ const Telecom = () => {
             <div className="col-lg-5">
               <div className="image-view">
                 <div className="first-img">
-                  <img src={AboutImg1} alt="About Us" />
+                  <img src={HomePhone} alt="About Us" />
                 </div>
               </div>
             </div>
