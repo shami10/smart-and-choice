@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom'
 
 import Footer from './Conponents/Common/Footer'
 import Header from './Conponents/Common/Header'
@@ -12,6 +12,7 @@ import Pricing from './Pages/Pricing'
 import Telecom from './Pages/Services/Telecom'
 import RealEstate from './Pages/Services/RealEstate'
 import Residential from './Pages/Services/Residential'
+import HomeWarranty from './Pages/Services/HomeWarranty'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="/about-us" exact element={<About />} />
             <Route path="/pricing" exact element={<Pricing />} />
             <Route path="/services/telecom" exact element={<Telecom />} />
+            <Route path="/services/home-warranty" exact element={<HomeWarranty />} />
             <Route
               path="/services/customer-support"
               exact

@@ -70,13 +70,14 @@ const Header = () => {
                       >
                         Residential Energy
                       </Link>
+                      <Link
+                        className="dropdown-item"
+                        to="/services/home-warranty"
+                      >
+                        Home Warranty
+                      </Link>
                     </div>
                   </li>
-                  {/* <li className="nav-item">
-                    <NavLink className="nav-link" to="/pricing">
-                      Pricing
-                    </NavLink>
-                  </li> */}
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/about-us">
                       About Us

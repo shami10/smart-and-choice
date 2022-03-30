@@ -110,3 +110,33 @@
     }
   }
 }
+.banner-call-btn{
+  strong{
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  a{
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  .btn-white-light{
+    background-color: #fff;
+    color: #252B42;
+    i{
+      color: #252B42;
+      margin-right: 10px;
+    }
+  }
+  .btn-dark-light{
+    background-color: #252B42;
+    color: #fff;
+    i{
+      color: #fff;
+      margin-right: 10px;
+    }
+  }
+}

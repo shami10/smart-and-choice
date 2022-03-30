@@ -11,9 +11,9 @@ const TopHeader = () => {
                 <i className="fas fa-envelope"></i>
                 info@smartandchoice.com
               </a>
-              <a href="tel:">
+              <a href="tel:(713) 325-0825">
                 <i className="fas fa-phone-alt"></i>
-                (123) 1234-123
+                (713) 325-0825
               </a>
             </div>
             <div className="col-6">

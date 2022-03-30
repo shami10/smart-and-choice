@@ -5,6 +5,7 @@ import AboutImg1 from '../../../Assets/images/about-us-1.jpg'
 import RealEstate from '../../../Assets/images/customer-support.jpg'
 import ResidentialEnergy from '../../../Assets/images/real-estate.jpg'
 import Telecom from '../../../Assets/images/telecom.jpg'
+import Warranty from '../../../Assets/images/home-warranty.jpg'
 
 const HomeServices = () => {
   return (
@@ -116,6 +117,42 @@ const HomeServices = () => {
                 </div>
                 <div className="read-more-btn">
                   <Link to="/services/residential-energy">Read More</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="section-design">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-7">
+              <div className="info-section">
+                <div className="title">
+                  <strong>04.</strong> Home Warranty
+                </div>
+                <div className="des">
+                  <p>
+                    We are committed to make the world a trusty place. We
+                    provide the finest home warranty bundle and discounted deals
+                    that are sustainable, efficient, integrated, and reasonable
+                    for you.
+                  </p>
+                  <p>
+                    We are offering a home warranty service plan that helps you
+                    to repair or replace parts of a home’s systems and
+                    appliances.
+                  </p>
+                </div>
+                <div className="read-more-btn">
+                  <Link to="/services/home-warranty">Read More</Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-5">
+              <div className="image-view">
+                <div className="first-img">
+                  <img src={Warranty} alt="About Us" />
                 </div>
               </div>
             </div>

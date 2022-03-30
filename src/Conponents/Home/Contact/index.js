@@ -15,18 +15,14 @@ const HomeMember = () => {
                   Became a member
                   <div className="line"></div>
                 </div>
-                <div className="title"> Ready to try different work experience now?</div>
+                <div className="title"> Ready to Try Different Experience?</div>
                 <div className="des p-0">
                   <p>
-                    Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                    Krologi. Jån krolahurat. Suprasa antisiv. Pomining
-                    prodiviligt. Midade nektigt. Vinterkräksjuka. Tribefängen
-                    probev. Afyr usa. Nypont bement. Prelig telengen. Pres
-                    avvisningsfre kvens. Traling ojusade.
-                  </p>
-                  <p>
-                    Ovis. Dyng koldioxidbanta. Teragram planen. Äde metalogi.
-                    Krologi. Jån krolahurat.
+                    We delivering unique experience for our member and enable
+                    unlimited features that can help for explore their
+                    requirement. If you are looking some services regarding
+                    energy telecom & home warranty for support your brand on
+                    demand services we can offer you real time deals.
                   </p>
                 </div>
                 <div className="read-more-btn">

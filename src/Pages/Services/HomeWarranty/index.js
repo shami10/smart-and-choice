@@ -1,8 +1,8 @@
 import React from 'react'
 import bg from '../../../Assets/images/page-header-bg.png'
-import Electricity from '../../../Assets/images/electricity.jpg'
-import GasEnergy from '../../../Assets/images/gas-energy.jpg'
-const Residential = () => {
+import Electricity from '../../../Assets/images/real-estate.jpg'
+import GasEnergy from '../../../Assets/images/live-agent.jpg'
+const HomeWarranty = () => {
   React.useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -13,23 +13,12 @@ const Residential = () => {
           <div className="container">
             <div className="row">
               <div className="col-7">
-                <h1>Residential Energy</h1>
+                <h1>Home Warranty</h1>
                 <p>
-                  Energy matters it powers our lives every day. And where it
-                  comes from matters too. A different kind of energy company.
-                  Always affordable, hassle-free, and green.
+                  We are committed to make the world a trusty place. We provide
+                  the finest home warranty bundle and discounted deals that are
+                  sustainable, efficient, integrated, and reasonable for you.
                 </p>
-                <div className="banner-call-btn">
-                  <strong>Call Us:</strong>
-                  <a href="tel:(210)905-0752" className="btn btn-white-light">
-                  <i className="fas fa-phone"></i>
-                    (210) 905-0752
-                  </a>
-                  <a href="tel:(216)208-1267" className="btn btn-dark-light">
-                    <i className="fas fa-phone"></i>
-                    (216) 208-1267
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -42,9 +31,8 @@ const Residential = () => {
             <div className="title">What We Are Offering</div>
             <div className="des p-0">
               <p>
-                We believe in sustainable and secure energy. We provide our
-                customers with valuable services. We have an commitment to
-                safely and reliably electricity and gas to millions of people.
+                We are offering a home warranty service plan that helps you to
+                repair or replace parts of a home’s systems and appliances.
               </p>
             </div>
           </div>
@@ -52,19 +40,19 @@ const Residential = () => {
             <div className="col-lg-7">
               <div className="info-section">
                 <div className="lable">
-                  Electricity Energy
+                  Deals
                   <div className="line"></div>
                 </div>
                 <div className="title sm-text">
-                  Get Green, Low Cost, Cleanest Sustainable Electric Energy
+                  Best for ever Home Warranty Deals
                 </div>
                 <div className="des p-0">
                   <p>
-                    It is what you get when you pick the best power company.
-                    Green vibes- feel-good vibes. We are helping move to a
-                    zero-carbon future. We offer 100% renewable electricity to
-                    all our clients around the world. No tricks, offers just low
-                    rates everyday.
+                    Pick the Plan that Works for You. See Our Home Warranty Plan
+                    Options that covers Electrical, Plumbing, Hackathon
+                    Appliances & More. Here you get the discounted deals of our
+                    reliable home warranty company. Everything You Need - A/C,
+                    Heating, Appliances, Plumbing & Electrical
                   </p>
                 </div>
                 <div className="read-more-btn"></div>
@@ -93,20 +81,19 @@ const Residential = () => {
             <div className="col-lg-7 pl-5">
               <div className="info-section">
                 <div className="lable">
-                  Gas Energy
+                  Repair & replace
                   <div className="line"></div>
                 </div>
                 <div className="title sm-text">
-                  Get Natural, non-toxic, less expensive, and more efficient
-                  domestic Gas
+                  Quick and Reliable Repair & replace
                 </div>
                 <div className="des">
                   <p>
-                    We sell and deliver natural gas nationwide. We are investing
-                    in modernizing our natural gas infrastructure and are
-                    committed to eliminating cast iron pipe in all territories.
-                    We are helping our clients reach their own climate goals
-                    through clean energy solutions.
+                    Are you still struggling to get repair and replace your home
+                    appliances? Then your struggle is real because it is
+                    overwhelming to find reliable home warranty company. Say
+                    goodbye to average & traditional home insurance companies
+                    and switch today, get our fast service at cheapest rate
                   </p>
                 </div>
                 <div className="read-more-btn"></div>
@@ -119,4 +106,4 @@ const Residential = () => {
   )
 }
 
-export default Residential
+export default HomeWarranty
